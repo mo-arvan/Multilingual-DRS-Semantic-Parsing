@@ -2,7 +2,7 @@
 set -eu -o pipefail
 # Preprocess script for the DRS parsing seq2seq experiments
 
-source /workspace/N-model/config/opennmt/default_config.sh #always load default settings from config file here
+source /workspace/N-models/config/opennmt/default_config.sh #always load default settings from config file here
 source $1 #first command line argument is the config file with specific settings -- it overrides settings in default_config.sh if added
 
 # First create directories (if not there yet)

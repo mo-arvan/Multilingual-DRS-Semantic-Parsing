@@ -1,5 +1,5 @@
 #!/bin/bash
-source ../config/opennmt/default_config.sh #always load default settings from config file here
+source /workspace/N-models/config/opennmt/default_config.sh #always load default settings from config file here
 
 # Import to set every time, the folder in which we save all experiment results models, working files, output, logs, etc
 MAIN_FOLDER="/workspace/experiments/opennmt/baseline/"
