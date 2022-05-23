@@ -2,9 +2,9 @@
 source ../config/opennmt/default_config.sh #always load default settings from config file here
 
 # Import to set every time, the folder in which we save all experiment results models, working files, output, logs, etc
-MAIN_FOLDER="${GIT_HOME}experiments/opennmt/baseline/"
+MAIN_FOLDER="/workspace/experiments/opennmt/baseline/"
 # Gold files - if you do not plan on changing these after you set them,  you can also move them to default_config.sh 
-GOLD_FOLDER="${GIT_HOME}/DRS_parsing/data/pmb-2.1.0/gold/"
+GOLD_FOLDER="/workspace/pmb-2.1.0/gold/"
 
 gold_train="train.txt"
 gold_dev="dev.txt"

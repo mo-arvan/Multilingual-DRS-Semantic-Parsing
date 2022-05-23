@@ -1,0 +1,1 @@
+mv /opt/app/pmb-2.1.0.zip . && unzip -q pmb-2.1.0.zip

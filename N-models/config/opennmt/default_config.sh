@@ -18,7 +18,7 @@
 
 GIT_HOME=""	# where the Git Neural_DRS repository is located
 ONMT_HOME="OpenNMT-py/"		# where OpenNMT is located
-sig_file="${GIT_HOME}DRS_parsing/evaluation/clf_signature.yaml" # signature file for clf_referee, check if correct location
+sig_file="/opt/app/clf_signature.yaml" # signature file for clf_referee, check if correct location
 
 # File from which to train pre-trained embeddings. When recreating our experiments, you can download these embeddings here:
 # http://www.let.rug.nl/rikvannoord/DRS/embeddings/
